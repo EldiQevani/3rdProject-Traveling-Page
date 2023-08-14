@@ -48,11 +48,17 @@
   background-color: rgb(255, 238, 0);
 }
 
+#highlights {
+  padding: 25px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(10, 134, 126));
+}
+
 #highlights h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 40px;
   color: rgb(59, 65, 64);
+  margin: 25px 0;
 }
 
 #destinations {
@@ -60,6 +66,7 @@
   width: 90%;
   margin: auto;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .destination {
